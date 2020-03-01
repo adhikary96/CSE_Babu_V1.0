@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111.797" height="122.297" viewBox="0 0 111.797 122.297">
+  <defs>
+    <filter id="Document" x="0" y="0" width="97.311" height="112.302" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Doc_Corner" x="34.546" y="8.953" width="47.627" height="45.847" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Download_Arrow" x="35" y="45" width="76.797" height="77.297" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo_1" data-name="Logo 1" transform="translate(-982.936 -733.5)">
+    <g id="Document-2" data-name="Document" transform="translate(18 554)">
+      <g transform="matrix(1, 0, 0, 1, 964.94, 179.5)" filter="url(#Document)">
+        <g id="Document-3" data-name="Document" transform="translate(88.06 20.5)" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M -19.75344848632813 62.80224227905273 L -21.25344848632813 62.80224227905273 L -67.56427001953125 62.80224227905273 L -69.06427001953125 62.80224227905273 L -69.06427001953125 61.30224227905273 L -69.06427001953125 3.046875008294592e-06 L -69.06427001953125 -1.499996900558472 L -67.56427001953125 -1.499996900558472 L -34.20013809204102 -1.499996900558472 L -33.65213012695313 -1.499996900558472 L -33.23318862915039 -1.146736979484558 L -20.2864990234375 9.770153045654297 L -19.75344848632813 10.21963310241699 L -19.75344848632813 10.91689300537109 L -19.75344848632813 61.30224227905273 L -19.75344848632813 62.80224227905273 Z" stroke="none"/>
+          <path d="M -67.56427001953125 0 L -67.56427001953125 61.30224609375 L -21.25344848632813 61.30224609375 L -21.25344848632813 10.91688919067383 L -34.20013809204102 0 L -67.56427001953125 0 M -67.56427001953125 -3 L -34.20013809204102 -3 C -33.49233627319336 -3 -32.80733871459961 -2.749740600585938 -32.2662353515625 -2.293476104736328 L -19.31954956054688 8.6234130859375 C -18.64354705810547 9.193435668945313 -18.25344848632813 10.03264617919922 -18.25344848632813 10.91688919067383 L -18.25344848632813 61.30224609375 C -18.25344848632813 62.95910263061523 -19.59659576416016 64.30224609375 -21.25344848632813 64.30224609375 L -67.56427001953125 64.30224609375 C -69.22113037109375 64.30224609375 -70.56427001953125 62.95910263061523 -70.56427001953125 61.30224609375 L -70.56427001953125 0 C -70.56427001953125 -1.656856536865234 -69.22113037109375 -3 -67.56427001953125 -3 Z" stroke="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 964.94, 179.5)" filter="url(#Doc_Corner)">
+        <g id="Doc_Corner-2" data-name="Doc Corner" transform="translate(49.09 20.41)" fill="#fff" stroke-linejoin="round">
+          <path d="M 21.18051338195801 11.89201831817627 L 17.08828163146973 11.89201831817627 L 5.461062431335449 11.89201831817627 L 3.961062431335449 11.89201831817627 L 3.961062431335449 10.39201831817627 L 3.961062431335449 0.5451383590698242 L 3.961062431335449 -2.690821647644043 L 6.43046236038208 -0.5995316505432129 L 13.15479278564453 5.095178127288818 L 18.05768203735352 9.247348785400391 L 21.18051338195801 11.89201831817627 Z" stroke="none"/>
+          <path d="M 5.461063385009766 0.5451383590698242 L 5.461063385009766 10.39201831817627 L 17.08828353881836 10.39201831817627 L 12.18539237976074 6.239848136901855 L 5.461063385009766 0.5451383590698242 M 5.460540771484375 -2.454901695251465 C 6.157556533813477 -2.454901695251465 6.847298622131348 -2.212157249450684 7.399862289428711 -1.74420166015625 L 14.124192237854 3.950508117675781 L 19.0270824432373 8.102678298950195 C 19.98760223388672 8.916138648986816 20.33820343017578 10.24268817901611 19.90502166748047 11.42448806762695 C 19.47183227539063 12.60628795623779 18.34697341918945 13.39201831817627 17.08828353881836 13.39201831817627 L 5.461063385009766 13.39201831817627 C 3.80421257019043 13.39201831817627 2.461063385009766 12.04886817932129 2.461063385009766 10.39201831817627 L 2.461063385009766 0.5451383590698242 C 2.461063385009766 -0.6232213973999023 3.139383316040039 -1.685301780700684 4.199392318725586 -2.176661491394043 C 4.60246467590332 -2.363500595092773 5.03288459777832 -2.454901695251465 5.460540771484375 -2.454901695251465 Z" stroke="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="DocumentLines" transform="translate(3 6)">
+      <path id="Icon_metro-lines" data-name="Icon metro-lines" d="M35.132,22.741H9.087a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Zm0,3.763H9.185a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Z" transform="translate(999 771)" fill="#d1d1d1"/>
+      <path id="Icon_metro-lines-2" data-name="Icon metro-lines" d="M35.132,22.741H9.087a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Zm0,3.763H9.185a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Z" transform="translate(999 763)" fill="#d1d1d1"/>
+      <path id="Icon_metro-lines-3" data-name="Icon metro-lines" d="M35.132,22.741H9.087a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Zm0,3.763H9.185a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Z" transform="translate(999 755)" fill="#d1d1d1"/>
+      <path id="Icon_metro-lines-4" data-name="Icon metro-lines" d="M35.132,22.741H9.087a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Zm0,3.763H9.185a.991.991,0,1,0,0,1.975H35.132a.991.991,0,1,0,0-1.975Z" transform="translate(999 747)" fill="#d1d1d1"/>
+      <path id="Icon_metro-lines-5" data-name="Icon metro-lines" d="M9.319,11.433h6.964a.9.9,0,1,0,0-1.793H9.319a.9.9,0,1,0,0,1.793Zm17.358,1.793H9.319a.9.9,0,1,0,0,1.793H26.677a.9.9,0,1,0,0-1.793Zm5.875,3.587H9.319a.9.9,0,1,0,0,1.793H32.551a.9.9,0,1,0,0-1.793Z" transform="translate(999 749)" fill="#d1d1d1"/>
+    </g>
+    <g id="Circle_Setup" data-name="Circle Setup" transform="translate(-44 454)">
+      <g transform="matrix(1, 0, 0, 1, 1026.94, 279.5)" filter="url(#Download_Arrow)">
+        <g id="Download_Arrow-2" data-name="Download Arrow" transform="translate(55.5 65.5)" fill="#fc0" stroke="#000" stroke-linejoin="round" stroke-width="3">
+          <ellipse cx="12.899" cy="13.149" rx="12.899" ry="13.149" stroke="none"/>
+          <ellipse cx="12.899" cy="13.149" rx="14.399" ry="14.649" fill="none"/>
+        </g>
+      </g>
+      <g id="DownArrow" transform="translate(1081.377 345.654)">
+        <line id="Line_1" data-name="Line 1" y2="14" transform="translate(14.559 5.346)" fill="none" stroke="#fff8f8" stroke-linecap="round" stroke-width="4"/>
+        <line id="Line_2" data-name="Line 2" x1="6.762" y2="7.654" transform="translate(14.797 12.346)" fill="none" stroke="#fff8f8" stroke-linecap="round" stroke-width="4"/>
+        <line id="Line_3" data-name="Line 3" x2="7.5" y2="8" transform="translate(7.059 12.346)" fill="none" stroke="#fff8f8" stroke-linecap="round" stroke-width="4"/>
+      </g>
+    </g>
+    <text id="S" transform="translate(1044 801)" font-size="40" font-family="OldEnglishTextMT, Old English Text MT"><tspan x="-33.77" y="0">S</tspan></text>
+  </g>
+</svg>

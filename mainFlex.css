@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.nav_container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: 4px 4px 4px 1px rgba(0,0,0,0.1);
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #FFF;
+}
+.nav_container .nav_logo {
+    order: 1;
+}
+.nav_container .nav_menu {
+    order: 2;
+    margin-left: auto;
+}
+/** Brand Logo Styling **/
+.nav_container .nav_logo .nav_logo_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #999;
+    transition: all .3s;
+}
+.nav_container .nav_logo .nav_logo_link:hover {
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+.nav_container .nav_logo .nav_logo_link .image {
+    height: 60px;
+    margin: 0 10px 10px 10px;
+}
+/** Hamburger Menu Design and Styling **/
+.nav_container .nav_burger .burger {
+    background-color: transparent;
+    border: none;
+    padding: 12px 10px;
+    display: none;
+}
+.nav_container .nav_burger .burger .line {
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: #000;
+    border-radius: 10px;
+    position: relative;
+    transition: background .2s ease-out;    
+}
+.nav_container .nav_burger .burger .line:before,
+.nav_container .nav_burger .burger .line:after {
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    position: absolute;
+    transition: all .2s ease-out;
+}
+.nav_container .nav_burger .burger .line::before {
+    top: -6px;
+}
+.nav_container .nav_burger .burger .line::after {
+    top: 6px;
+}
+/** Hiding the Close Button in Widescreen display **/
+.close_btn{
+    display: none;
+}
+/** Navigation Links Styling **/
+.nav_container .nav_menu {
+    float: right;
+    padding: 20px;
+}
+.nav_container .nav_menu .nav_item {
+    padding: 15px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #666;
+    transition: .3s;
+}
+.nav_container .nav_menu .nav_item:hover {
+    text-decoration: none;
+    color: #111;
+    transition: .3s;
+}
+/** Login and Signup Button Styling **/
+.nav_container .nav_menu .buttons {
+    float: right;
+}
+.nav_container .nav_menu .buttons .btn {
+    margin: 0 10px;
+    font-size: 16px;
+}
+.nav_container .nav_menu .buttons .login {
+    border: 2px solid #DDD;
+    background: transparent;
+    transition: .5s;
+}
+.nav_container .nav_menu .buttons .login:hover {
+    border: 2px solid #000;
+    transition: .5s;
+    transform: rotate(-2deg);
+}
+.nav_container .nav_menu .buttons .signup {
+    border: 2px solid #DDD;
+    background-color: #DDD;
+    color: #555;
+    transition: .5s;
+}
+.nav_container .nav_menu .buttons .signup:hover {
+    border:2px solid #000;
+    background-color: #000;
+    color: #FFF;
+    transition: .5s;
+    transform: rotate(-2deg);
+}
+
+@media screen and (max-width: 850px) {
+    .nav_container {
+        width: 100%;
+    }
+    .nav_container .nav_burger .burger {
+        display: block;
+        order: 1;
+        margin: 15px;
+    }
+    .nav_container .nav_logo {
+        order: 0;
+/*        margin-left: auto;*/
+        margin-right: auto;
+        padding-right: 20px;
+    }
+    .nav_container .nav_menu{
+        background: #CCC;
+        z-index: 1;
+        position: fixed;
+        overflow-x: hidden;
+        padding: 60px 0px 0px 0px;
+        width: 0px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transition: 0.5s ease-in-out;
+    }
+    .nav_container .nav_menu .nav_item {
+        float: left;
+        display: inline-block;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .nav_container .nav_menu .close_btn{
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+/*        background: #000;*/
+        position: relative;
+        font-size: 16px;
+        color: #555;
+        padding-right: 20px;
+        text-align: right;
+        margin: 10px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    .nav_container .nav_menu .close_btn:hover{
+        color: #ff5252;
+    }
+    .nav_container .nav_menu .buttons .btn{
+        margin: 10px 15px;
+        width: 50%;
+    }
+}
+
+
+/** Scrollbar customization **/
+::-webkit-scrollbar {
+    width: 10px;   
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d1ccc0;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background-color: #f7f1e3;
+}
+

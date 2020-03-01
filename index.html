@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FLEX | NavBar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap and jQuery links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="Grad%20Hat.svg" type="image/gif">
+    <link rel='stylesheet' type='text/css' media='screen' href='mainFlex.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sectionFlex.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cardsFlex.css'>
+    <script src = "main.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <header class="nav_container">
+            <div class="nav_logo">
+                <a href="#" class="nav_logo_link">
+                    <img src="Grad%20Hat.svg" class="image"/>CSE Babu
+                </a>
+            </div>
+            <div class="nav_burger">
+                <button type="button" onclick="openNav()" class="burger"><span class="line"></span></button>
+            </div>
+            <div class="nav_menu" id="menu">
+                <a href="javascript:void(0)" class="close_btn" onclick="closeNav()">Close</a>
+                <a href="#" class="nav_item">Home</a>
+                <a href="#" class="nav_item">Languages</a>
+                <a href="#" class="nav_item">Operating Systems</a>
+                <a href="#" class="nav_item">About Us</a>
+                <div class="buttons">
+                    <button type="button" class="btn login">Login</button>
+                    <button type="button" class="btn signup">Sign Up</button>
+                </div>
+            </div>
+        </header>
+        <section class="hero_container">
+            <div class="hero_img">
+                <img src="iconfinder_website-builder_4417110.svg" class="imgDisplay"/>
+            </div>
+            <div class="hero_text">
+                <div class="super">Your Personal</div>
+                <div class="main">Application Installtion Guide</div>
+                <div class="sub">Get all the steps that you need here</div>
+            </div>
+        </section>
+        <section class="call_to_act">
+            <button class="explore_btn" type="button" onclick="#">
+                Explore 
+                <i class="fa fa-angle-down custom" aria-hidden="true"></i>
+            </button>
+        </section>
+        <section class="cards">
+            <div class="card_lang card_item">
+                <div class="card_img">
+                    <img src="programming-language.png" alt="programming languages"/>
+                </div>
+                <div class="card_content">
+                    <div class="card_title">Languages</div>
+                    <div class="card_text">
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                    </div>
+                </div>
+                <div class="card_more_btn">
+                    <button class="read_more" type="button">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <div class="card_os card_item">
+                <div class="card_img">
+                    <img src="programming-language.png" alt="programming languages"/>
+                </div>
+                <div class="card_content">
+                    <div class="card_title">Operating Systems</div>
+                    <div class="card_text">
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                        This is a demo card that is being displayed.
+                    </div>
+                </div>
+                <div class="card_more_btn">
+                    <button class="read_more" type="button">
+                        Read More
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>

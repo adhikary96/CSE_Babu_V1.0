@@ -1,0 +1,124 @@
+
+.cards {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 10px;
+}
+.cards .card_item {
+    margin: 20px 0;
+}
+.cards .card_lang {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+.cards .card_os {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card_lang .card_img img,
+.card_os .card_img img {
+    order: 1;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.card_lang .card_content .card_title,
+.card_os .card_content .card_title {
+    order: 2;
+    font-size: 24px;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.card_lang .card_content .card_text,
+.card_os .card_content .card_text{
+    order: 3;
+    font-size: 14px;
+    text-align: justify;
+    overflow-y: scroll;
+    height: 140px;
+}
+.card_lang .card_more_btn,
+.card_os .card_more_btn {
+    order: 4;
+    margin-top: auto;
+}
+.card_lang .card_more_btn .read_more,
+.card_os .card_more_btn .read_more {
+    background-color: transparent;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: all .5s;
+/*    border: 1px solid black;*/
+}
+.card_lang .card_more_btn .read_more:hover,
+.card_os .card_more_btn .read_more:hover {
+    border: 1px solid #000;
+    transition: all .5s;
+}
+.card_lang .card_content .card_text::-webkit-scrollbar,
+.card_os .card_content .card_text::-webkit-scrollbar {
+    width: 3px;
+}
+
+@media screen and (max-width: 450px){
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .card_lang {
+        order: 1;
+        width: 200px;
+        height: 300px;
+    }
+    .cards .card_os {
+        order: 2;
+        width: 200px;
+        height: 300px;
+    }
+    .card_lang .card_content .card_title,
+    .card_os .card_content .card_title {
+        font-size: 16px;
+    }
+    .card_lang .card_content .card_text,
+    .card_os .card_content .card_text {
+        font-size: 12px;
+        height: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .cards {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .cards .card_lang {
+        order: 1;
+    }
+    .cards .card_os {
+        order: 2;
+    }
+}
+
