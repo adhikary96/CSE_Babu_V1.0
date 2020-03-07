@@ -10,3 +10,13 @@ function openNav(){
 function closeNav(){
     document.getElementById("menu").style.width = null;
 }
+function showNext() {
+    console.log(document.getElementById("card1").classList);
+    if(document.getElementById("card1").classList.contains("active")){
+        document.getElementById("card1").classList.remove("active");
+        document.getElementById("card2").classList.add("active");
+    } else {
+        document.getElementById("card1").classList.add("active");
+        document.getElementById("card2").classList.remove("active");
+    }
+}

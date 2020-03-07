@@ -8,16 +8,19 @@
 }
 .cards .card_item {
     margin: 20px 0;
+    background-color: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.2);
 }
+
 .cards .card_lang {
     order: 1;
     display: flex;
     flex-direction: column;
     align-content: center;
-    border: 1px solid black;
-    width: 300px;
-    height: 400px;
-    padding: 10px;
+/*    border: 1px solid #000;*/
+    width: 350px;
+    height: 450px;
+    padding: 20px;
     overflow: hidden;
 }
 .cards .card_os {
@@ -25,10 +28,10 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    border: 1px solid black;
-    width: 300px;
-    height: 400px;
-    padding: 10px;
+/*    border: 1px solid black;*/
+    width: 350px;
+    height: 450px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -46,7 +49,6 @@
     padding: 15px 0px;
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
 }
 .card_lang .card_content .card_text,
 .card_os .card_content .card_text{
@@ -70,11 +72,16 @@
     padding: 10px;
     border: 1px solid transparent;
     transition: all .5s;
-/*    border: 1px solid black;*/
+    background-color: rgba(51, 217, 178,0.1);
+    color: #186756;
+    transition: all .5s;
+    /*border: 1px solid black;*/
 }
 .card_lang .card_more_btn .read_more:hover,
 .card_os .card_more_btn .read_more:hover {
-    border: 1px solid #000;
+/*    border: 1px solid #218c74;*/
+    background-color: rgba(51, 217, 178,0.3);
+    color: #000;
     transition: all .5s;
 }
 .card_lang .card_content .card_text::-webkit-scrollbar,
@@ -89,13 +96,13 @@
     }
     .cards .card_lang {
         order: 1;
-        width: 200px;
-        height: 300px;
+        width: 250px;
+        height: 350px;
     }
     .cards .card_os {
         order: 2;
-        width: 200px;
-        height: 300px;
+        width: 250px;
+        height: 350px;
     }
     .card_lang .card_content .card_title,
     .card_os .card_content .card_title {
@@ -121,4 +128,3 @@
         order: 2;
     }
 }
-

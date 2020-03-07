@@ -7,6 +7,7 @@
 }
 body {
     font-size: 20px;
+/*    background-color: rgba(236, 240, 241,.1);*/
 }
 .flex-container {
     display: flex;
@@ -34,12 +35,12 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bolder;
-    color: #999;
+    color: #218c74;
     transition: all .3s;
 }
 .nav_container .nav_logo .nav_logo_link:hover {
     text-decoration: none;
-    color: #000;
+    color: #33d9b2;
     transition: .5s;
 }
 .nav_container .nav_logo .nav_logo_link .image {
@@ -88,15 +89,17 @@ body {
     padding: 20px;
 }
 .nav_container .nav_menu .nav_item {
-    padding: 15px 15px;
+    padding: 20px 15px;
     font-size: 16px;
     text-decoration: none;
-    color: #666;
+    color: rgba(33, 140, 116,1);
     transition: .3s;
 }
 .nav_container .nav_menu .nav_item:hover {
     text-decoration: none;
-    color: #111;
+/*    background-color: #EEE;*/
+    border-bottom: 2px solid #33d9b2;
+    color: #218c74;
     transition: .3s;
 }
 /** Login and Signup Button Styling **/
@@ -107,28 +110,30 @@ body {
     margin: 0 10px;
     font-size: 16px;
 }
+
 .nav_container .nav_menu .buttons .login {
-    border: 2px solid #DDD;
+    border: 2px solid rgba(51, 217, 178,0.3);
     background: transparent;
+    color: #218c74;
     transition: .5s;
 }
 .nav_container .nav_menu .buttons .login:hover {
-    border: 2px solid #000;
+    border: 2px solid #218c74;
     transition: .5s;
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
 }
 .nav_container .nav_menu .buttons .signup {
-    border: 2px solid #DDD;
-    background-color: #DDD;
-    color: #555;
+    border: 2px solid rgba(51, 217, 178,0.1);
+    background-color: rgba(51, 217, 178,0.1);
+    color: #218c74;
     transition: .5s;
 }
 .nav_container .nav_menu .buttons .signup:hover {
-    border:2px solid #000;
-    background-color: #000;
+    border: 2px solid #218c74;
+    background-color: #218c74;
     color: #FFF;
     transition: .5s;
-    transform: rotate(-2deg);
+    transform: rotate(-1deg);
 }
 
 @media screen and (max-width: 850px) {
@@ -147,7 +152,7 @@ body {
         padding-right: 20px;
     }
     .nav_container .nav_menu{
-        background: #CCC;
+        background: #EFE;
         z-index: 1;
         position: fixed;
         overflow-x: hidden;
@@ -190,16 +195,18 @@ body {
 
 /** Scrollbar customization **/
 ::-webkit-scrollbar {
-    width: 10px;   
+    width: 8px;   
 }
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: rgba(236, 240, 241,.1);
+/*    -webkit-box-shadow: inset 0 0 6px rgba(33, 140, 116,1.0);*/
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #d1ccc0;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: rgba(44, 62, 80,0.5);
+    border-radius: 10px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background-color: #f7f1e3;
+	background-color: rgba(44, 62, 80,1);
 }
 
