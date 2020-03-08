@@ -1,0 +1,279 @@
+
+.footer {
+    order: 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgba(51, 217, 178,0.1);
+    margin-top: 20px;
+}
+
+.footer .links {
+/*    border: 1px solid black;*/
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+/*    width: 20%;*/
+    height: auto;
+}
+
+.footer .tuned {
+/*    border: 1px solid black;*/
+    order: 2;
+    display: flex;
+    flex-direction: column;
+/*    width: 30%;*/
+    height: auto;
+    align-items: center;
+}
+
+.footer .contact {
+/*    border: 1px solid black;*/
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+/*    width: 50%;*/
+    height: auto;
+}
+
+.footer .links .footer_links {
+    font-size: 16px;
+    text-align: right;
+    text-decoration: none;
+    color: #135345;
+    padding: 2px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .5s;
+}
+
+.footer .links .footer_head {
+    font-size: 24px;
+    color: #218c74;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer .links .footer_links:hover {
+    color: #26a68a;
+    border-bottom: 2px solid #33d9b2;
+    transition: border-bottom .5s;
+}
+
+.footer .tuned .social {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .tuned .social .text {
+    order: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #218c74;
+    padding: 10px 0 0 0;
+}
+
+.footer .tuned .social .subtext {
+    order: 2;
+    font-size: 14px;
+/*    padding: 2px 0;*/
+}
+
+.footer .tuned .social .soc_links {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .tuned .social .soc_links .social_links {
+    padding: 5px 10px;
+    margin: 2px 5px;
+    color: #218c74;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.footer .tuned .social .soc_links .social_links:hover {
+    background-color: rgba(51, 217, 178,.1);
+    border: 1px solid #33d9b2;
+    transition: .5s;
+    box-shadow: 0px 5px 10px 0px rgba(51, 217, 178,.5);
+}
+
+.footer .tuned .email_sub {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .tuned .email_sub .text {
+    order: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #218c74;
+    padding-top: 15px;
+}
+
+.footer .tuned .email_sub .subtext {
+    order: 2;
+    font-size: 14px;
+}
+
+.footer .tuned .email_sub .email {
+    order: 3;
+}
+
+.footer .tuned .email_sub .email .email_icon {
+    color: rgba(33, 140, 116,1.0);
+}
+
+.footer .tuned .email_sub .email .email_add {
+    margin: 10px;
+    font-size: 14px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid rgba(33, 140, 116,1);
+    border-radius: 5px;
+    transition: .5s;
+    width: 250px;
+}
+
+.footer .tuned .email_sub .email_btn {
+    order: 4;
+    font-size: 14px;
+    background: rgba(51, 217, 178,0.1);
+    border: 1px solid rgba(51, 217, 178,0.1);
+    color: rgba(33, 140, 116,1.0);
+    padding: 5px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    font-weight: bold;
+} 
+
+.footer .tuned .email_sub .email_add:hover {
+    border: 1px solid rgba(33, 140, 116,1.0);
+    background: rgba(51, 217, 178,.1);
+    transition: .5s;
+    color: rgba(33, 140, 116,1.0);
+}
+
+.footer .tuned .email_sub .email_btn:hover {
+    border: 1px solid rgba(33, 140, 116,1.0);
+    background: rgba(33, 140, 116,1.0);
+    color: white;
+    transition: .5s;
+}
+
+.footer .contact .text {
+    order: 1;
+    color: #218c74;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
+
+.footer .contact .subtext {
+    order: 2;
+    font-size: 14px;
+    padding: 5px 0 10px 10px;
+}
+
+.footer .contact .email {
+    order: 3;
+    padding: 10px;
+}
+
+.footer .contact .email .email_add {
+    width: 300px;
+    font-size: 14px;
+    padding: 5px;
+    background: transparent;
+    border: 1px solid rgba(33, 140, 116,1);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.footer .contact .email .email_add:hover {
+    border: 1px solid rgba(33, 140, 116,1.0);
+    background: rgba(51, 217, 178,.1);
+    transition: .5s;
+    color: rgba(33, 140, 116,1.0);
+}
+
+.footer .contact .msg {
+    order: 4;
+    padding: 0 0 0 10px;
+}
+
+.footer .contact .msg .msg_box {
+    resize: none;
+    font-size: 14px;
+    width: 300px;
+    height: 100px;
+    background: none;
+    border: 1px solid rgba(33, 140, 116,1.0);
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer .contact .send {
+    order: 5;
+    font-size: 14px;
+    margin: 10px;
+    padding: 5px 30px;
+    background: rgba(51, 217, 178,0.1);
+    border: 1px solid rgba(51, 217, 178,0.1);
+    color: rgba(33, 140, 116,1.0);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.footer .contact .send:hover {
+    border: 1px solid rgba(33, 140, 116,1.0);
+    background: rgba(33, 140, 116,1.0);
+    color: white;
+    transition: .5s;
+}
+
+
+@media screen and (max-width: 450px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .footer .links,
+    .footer .tuned,
+    .footer .email-sub,
+    .footer .contact {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .links,
+    .footer .tuned,
+    .footer .email-sub,
+    .footer .contact {
+        margin: 10px 0;
+    }
+}
+

@@ -106,6 +106,7 @@
 
 .team_container .team_info_card .card_nxt {
     order: 2;
+    margin: 10px;
 }
 .team_container .team_info_card .card_nxt .next_btn {
     font-size: 20px;

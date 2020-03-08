@@ -15,6 +15,8 @@
     <link rel='stylesheet' type='text/css' media='screen' href='sectionFlex.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='cardsFlex.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='teamFlex.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='goalFlex.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='footerFlex.css'>
     <script src = "main.js"></script>
 </head>
 <body>
@@ -65,18 +67,33 @@
                     <div class="card_title">Languages</div>
                     <div class="card_text">
                         This is a demo card that is being displayed.
-                        This is a demo card that     is being displayed.
+                        This is a demo card that is being displayed.
                         This is a demo card that is being displayed.
                         This is a demo card that is being displayed.
                         This is a demo card that is being displayed.
                         This is a demo card that is being displayed.
                     </div>
                 </div>
+                <div class="card_icons">
+                    <div class="card_exp">
+                        <a href="#" class="card_exp_link">Expand This</a>
+                    </div>
+                    <div class="card_count">
+                        <a href="#" class="card_count_link">
+                            <i class="fa fa-graduation-cap"></i> 10
+                        </a>
+                    </div>
+                    <div class="card_view_all">
+                        <a href="#" class="card_view_all_link">View All Items</a>
+                    </div>
+                </div>
+<!--
                 <div class="card_more_btn">
                     <button class="read_more" type="button">
                         Read More
                     </button>
                 </div>
+-->
             </div>
             <div class="card_os card_item">
                 <div class="card_img">
@@ -93,11 +110,26 @@
                         This is a demo card that is being displayed.
                     </div>
                 </div>
+                <div class="card_icons">
+                    <div class="card_exp">
+                        <a href="#" class="card_exp_link">Expand This</a>
+                    </div>
+                    <div class="card_count">
+                        <a href="#" class="card_count_link">
+                            <i class="fa fa-graduation-cap"></i> 10
+                        </a>
+                    </div>
+                    <div class="card_view_all">
+                        <a href="#" class="card_view_all_link">View All Items</a>
+                    </div>
+                </div>
+<!--
                 <div class="card_more_btn">
                     <button class="read_more" type="button">
                         Read More
                     </button>
                 </div>
+-->
             </div>
         </section>
         <section class="team_container">
@@ -108,12 +140,17 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
             <div class="team_info_card">
                 <div class="card active" id="card1">
                     <div class="card_img">
-                        <img src="photo.JPG" class="card_img_photo">
+                        <img src="photo.JPG" class="card_img_photo" alt="developer-1-image">
                     </div>
                     <div class="card_details">
                         <div class="card_head">Deepraj Adhikary</div>
@@ -128,7 +165,7 @@
                 </div>
                 <div class="card" id="card2">
                     <div class="card_img">
-                        <img src="photo2.JPG" class="card_img_photo">
+                        <img src="photo2.JPG" class="card_img_photo" alt="developer-2-image">
                     </div>
                     <div class="card_details">
                         <div class="card_head">Nayanraj Adhikary</div>
@@ -145,6 +182,79 @@
                     <button type="button" onclick="showNext()" class="next_btn prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
                     <button type="button" onclick="showNext()" class="next_btn next"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                 </div>
+            </div>
+        </section>
+        <section class="goal_container">
+            <div class="goal_card">
+                <img src="21-Target.svg" class="goal_img"/>
+            </div>
+            <div class="goal_txt">
+                <div class="goal_head">Our Goals</div>
+                <div class="goal_body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="goal_subtxt">
+                    <i class="fa fa-users" aria-hidden="true"></i> Development Team
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="links">
+                <a href="#" class="footer_head">CSE Babu</a>
+                <a href="#" class="footer_links">Home</a>
+                <a href="#" class="footer_links">Languages</a>
+                <a href="#" class="footer_links">Operating Systems</a>
+                <a href="#" class="footer_links">About Us</a>
+            </div>
+            <div class="tuned">
+                <div class="social">
+                    <div class="text">Stay Tuned</div>
+                    <div class="subtext">Follow us on our social media platforms</div>
+                    <div class="soc_links">
+                        <a href="#" class="social_links">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social_links">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social_links">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="social_links">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="email_sub">
+                    <div class="text">Receive Email Updates</div>
+                    <div class="subtext">Be the first to hear about new contents !</div>
+                    <div class="email">
+                        <i class="fa fa-envelope email_icon"></i>
+                        <input type="text" class="email_add" placeholder="email address"/>
+                    </div>
+                    <button type="button" class="email_btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="text">Contact Us</div>
+                <div class="subtext">Have a feedback? Send us a message</div>
+                <div class="email">
+                    <input type="text" class="email_add" placeholder="email address"/>
+                </div>
+                <div class="msg">
+                    <textarea class="msg_box" fixed placeholder="Message"></textarea>
+                </div>
+                <button type="button" class="send">
+                    <i class="fa fa-comment-o" aria-hidden="true"></i>&nbsp; &nbsp;
+                    Send Message
+                </button>
             </div>
         </section>
     </div>

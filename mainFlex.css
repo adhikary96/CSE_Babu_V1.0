@@ -147,7 +147,6 @@ body {
     }
     .nav_container .nav_logo {
         order: 0;
-/*        margin-left: auto;*/
         margin-right: auto;
         padding-right: 20px;
     }
