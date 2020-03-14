@@ -136,6 +136,7 @@ body {
     transform: rotate(-1deg);
 }
 
+
 @media screen and (max-width: 850px) {
     .nav_container {
         width: 100%;

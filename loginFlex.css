@@ -1,0 +1,170 @@
+
+.login_screen {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 20px 50px;
+}
+
+.login-screen .login_img {
+    order: 1;
+}
+
+.login_screen .login_img .img {
+    width: 600px;
+    display: block;
+}
+
+.login_screen .login_form {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 60px;
+}
+
+.login_screen .login_form .login_txt {
+    order: 1;
+}
+
+.login_screen .login_form .login_txt .txt_head {
+    font-size: 36px;
+    text-align: center;
+}
+
+.login_screen .login_form .login_txt .txt_subhead {
+    font-size: 16px;
+    text-align: center;
+}
+
+.login_screen .login_form .form {
+    order: 2;    
+}
+
+.login_screen .login_form .form .form_container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 10px;
+    align-items: center;
+}
+.login_screen .login_form .form .form_container .username_box {
+    order: 1;
+    border-radius: 10px 10px 0 0;
+}
+.login_screen .login_form .form .form_container .password_box {
+    order: 2;
+    border-radius: 0 0 10px 10px;
+}
+
+.login_screen .login_form .form .form_container .username_box,
+.login_screen .login_form .form .form_container .password_box{
+    padding: 10px;
+    width: 500px;
+    transition: .5s;
+    background-color: transparent;
+    background-color: rgba(223, 228, 234,0.5);
+}
+
+
+.login_screen .login_form .form .form_container .username_box:hover,
+.login_screen .login_form .form .form_container .password_box:hover {
+    background-color: rgba(223, 228, 234,0.1);
+    transition: .5s;
+    color: #2ed573;
+}
+
+.login_screen .login_form .form .form_container .username_box i,
+.login_screen .login_form .form .form_container .password_box i {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.login_screen .login_form .form .form_container .username_box .username,
+.login_screen .login_form .form .form_container .password_box .password {
+    border: none;
+    background: transparent;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
+}
+
+.login_screen .login_form .form .form_container .username_box .username:hover,
+.login_screen .login_form .form .form_container .password_box .password:hover,
+.login_screen .login_form .form .form_container .username_box .username:focus,
+.login_screen .login_form .form .form_container .password_box .password:focus {
+    color: rgba(52, 172, 224,1.0);
+    border-bottom: 3px solid #2ed573;
+    transition: .5s;
+}
+
+.login_screen .login_form .form .form_container .login_btn {
+    order: 3;
+    padding: 5px 50px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 2px solid rgba(51, 217, 178,.5);
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: .5s;
+    background-color: transparent;
+    color: rgba(99, 110, 114,1.0);
+}
+
+.login_screen .login_form .form .form_container .login_btn:hover {
+    background-color: rgba(51, 217, 178,1.0);
+    color: #000;
+    transition: .5s;
+}
+
+
+@media screen and (max-width: 450px) {
+    .login_screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .login_screen .login_img .img{
+        display: none;
+    }
+    .login_screen .login_form {
+        display: flex;
+        margin: 10px;
+        width: 100%;
+    }
+    .login_screen .login_form .form .form_container .username_box,
+    .login_screen .login_form .form .form_container .password_box {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px)  {
+    .login_screen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .login_screen .login_img .img{
+        display: none;
+    }
+    .login_screen .login_form {
+        display: flex;
+        margin: 10px;
+        width: 100%;
+    }
+}
+
