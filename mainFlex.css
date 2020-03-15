@@ -172,6 +172,8 @@ body {
         z-index: 1;
         position: fixed;
         overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
         padding: 60px 0px 0px 0px;
         width: 0px;
         height: 100%;
