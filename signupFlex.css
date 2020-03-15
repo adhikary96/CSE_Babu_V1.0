@@ -1,0 +1,155 @@
+
+.signup_section {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.signup_section .signup_img {
+    order: 1;
+    width: 50%;
+    padding: 20px;
+}
+
+.signup_section .signup_img .img {
+    width: 600px;
+    height: auto;
+}
+
+.signup_section .signup_form {
+    order: 2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.signup_section .signup_form .form_txt {
+    order: 1;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.signup_section .signup_form .form_subtxt {
+    order: 2;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.signup_section .signup_form .form {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup_section .signup_form .form .form_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup_section .signup_form .form .form_container .name,
+.signup_section .signup_form .form .form_container .email,
+.signup_section .signup_form .form .form_container .dob,
+.signup_section .signup_form .form .form_container .password,
+.signup_section .signup_form .form .form_container .re_password {
+    font-size: 16px;
+    background-color: rgba(223, 228, 234,0.5);
+    padding: 10px;
+    color: rgba(99, 110, 114,1.0);
+    transition: .5s;
+}
+
+.signup_section .signup_form .form .form_container .name:hover,
+.signup_section .signup_form .form .form_container .email:hover,
+.signup_section .signup_form .form .form_container .dob:hover,
+.signup_section .signup_form .form .form_container .password:hover,
+.signup_section .signup_form .form .form_container .re_password:hover {
+    background-color: rgba(223, 228, 234,0.2);
+    transition: .5s;
+    color: #2ed573;
+} 
+
+.signup_section .signup_form .form .form_container .name i,
+.signup_section .signup_form .form .form_container .email i,
+.signup_section .signup_form .form .form_container .dob i,
+.signup_section .signup_form .form .form_container .password i ,
+.signup_section .signup_form .form .form_container .re_password i  {
+    padding: 10px;
+}
+
+.signup_section .signup_form .form .form_container .name .name_box,
+.signup_section .signup_form .form .form_container .email .email_box
+,.signup_section .signup_form .form .form_container .dob .dob_box,
+.signup_section .signup_form .form .form_container .password .password_box,
+.signup_section .signup_form .form .form_container .re_password .re_password_box{
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    width: 400px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.signup_section .signup_form .form .form_container .name .name_box:hover,
+.signup_section .signup_form .form .form_container .email .email_box:hover,
+.signup_section .signup_form .form .form_container .dob .dob_box:hover,
+.signup_section .signup_form .form .form_container .password .password_box:hover,
+.signup_section .signup_form .form .form_container .re_password .re_password_box:hover {
+    color: rgba(52, 172, 224,1.0);
+    border-bottom: 3px solid #2ed573;
+    transition: .5s;
+}
+
+.signup_section .signup_form .form .form_container .name {
+    order: 1;
+    border-radius: 10px 10px 0 0;
+}
+
+.signup_section .signup_form .form .form_container .email {
+    order: 2;
+    
+}
+.signup_section .signup_form .form .form_container .dob {
+    order: 3;
+}
+.signup_section .signup_form .form .form_container .password {
+    order: 4;
+}
+.signup_section .signup_form .form .form_container .re_password {
+    order: 5;
+    border-radius: 0 0 10px 10px;
+}
+
+.signup_section .signup_form .form .form_container .submit_btn {
+    order: 6;
+    padding: 5px 50px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 2px solid rgba(51, 217, 178,.4);
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: .5s;
+    background-color: rgba(51, 217, 178,.4);
+    color: #444;
+}
+
+.signup_section .signup_form .form .form_container .submit_btn:hover {
+    background-color: rgba(51, 217, 178,1.0);
+    color: #000;
+    transition: .5s;
+}
+
+
+
+@media screen and (max-width: 499px) {
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    
+}

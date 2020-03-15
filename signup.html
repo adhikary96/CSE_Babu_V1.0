@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FLEX | NavBar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap and jQuery links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" href="Grad%20Hat.svg" type="image/gif">
+    <link rel='stylesheet' type='text/css' media='screen' href='mainLoginFlex.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='signupFlex.css'>
+</head>
+<body>
+    <div class="flex-container">
+        <header class="nav_container">
+            <div class="nav_logo">
+                <a href="./index.html" class="nav_logo_link">
+                    <img src="Grad%20Hat.svg" class="image"/>CSE Babu
+                </a>
+            </div>
+        </header>
+        <section class="signup_section">
+            <div class="signup_img">
+                <img src="welcoming.png" class="img">
+            </div>
+            <div class="signup_form">
+                <div class="form_txt">
+                    Sign Up
+                </div>
+                <div class="form_subtxt">
+                    New to CSE Babu &#128516;, Signup Here.
+                </div>
+                <div class="form">
+                    <form class="form_container" action="#" target="_self" method="post">
+                        <div class="name">
+                            <i class="fa fa-user-o"></i>
+                            <input type="text" class="name_box" placeholder="Username">
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-envelope-o"></i>
+                            <input type="email" class="email_box" placeholder="Email address">
+                        </div>
+                        <div class="dob">
+                            <i class="fa fa-calendar-o"></i>
+                            <input type="date" class="dob_box" placeholder="DOB">
+                        </div>
+                        <div class="password">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" class="password_box" placeholder="Password">
+                        </div>
+                        <div class="re_password">
+                            <i class="fa fa-lock"></i>
+                            <input type="password" class="re_password_box" placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="submit_btn">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
