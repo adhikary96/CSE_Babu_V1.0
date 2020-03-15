@@ -204,6 +204,10 @@ body {
     .nav_container .nav_menu .close_btn:hover{
         color: #ff5252;
     }
+    .nav_container .nav_menu .buttons {
+        display: flex;
+        flex-direction: column;
+    }
     .nav_container .nav_menu .buttons .btn{
         margin: 10px 15px;
         width: 50%;

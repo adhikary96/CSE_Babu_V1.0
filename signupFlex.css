@@ -83,10 +83,10 @@
 }
 
 .signup_section .signup_form .form .form_container .name .name_box,
-.signup_section .signup_form .form .form_container .email .email_box
-,.signup_section .signup_form .form .form_container .dob .dob_box,
+.signup_section .signup_form .form .form_container .email .email_box,
+.signup_section .signup_form .form .form_container .dob .dob_box,
 .signup_section .signup_form .form .form_container .password .password_box,
-.signup_section .signup_form .form .form_container .re_password .re_password_box{
+.signup_section .signup_form .form .form_container .re_password .re_password_box {
     border: none;
     background-color: transparent;
     border-bottom: 3px solid transparent;
@@ -145,11 +145,80 @@
 }
 
 
-
 @media screen and (max-width: 499px) {
+    .signup_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
     
+    .signup_section .signup_img {
+        display: none;
+    }
+    
+    .signup_section .signup_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+    }
+    
+    .signup_section .signup_form .form {
+        width: 100%;
+    }
+    
+    .signup_section .signup_form .form .form_container .name,
+    .signup_section .signup_form .form .form_container .email,
+    .signup_section .signup_form .form .form_container .dob,
+    .signup_section .signup_form .form .form_container .password,
+    .signup_section .signup_form .form .form_container .re_password  {
+        width: 100%;
+    }
+    
+    .signup_section .signup_form .form .form_container .name .name_box,
+    .signup_section .signup_form .form .form_container .email .email_box,
+    .signup_section .signup_form .form .form_container .dob .dob_box,
+    .signup_section .signup_form .form .form_container .password .password_box,
+    .signup_section .signup_form .form .form_container .re_password .re_password_box {
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 850px) {
+    .signup_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .signup_section .signup_img {
+        display: none;
+    }
     
+    .signup_section .signup_form .form .form_container .name,
+    .signup_section .signup_form .form .form_container .email,
+    .signup_section .signup_form .form .form_container .dob,
+    .signup_section .signup_form .form .form_container .password,
+    .signup_section .signup_form .form .form_container .re_password  {
+        width: 100%;
+    }
+    
+    .signup_section .signup_form .form .form_container .name .name_box,
+    .signup_section .signup_form .form .form_container .email .email_box,
+    .signup_section .signup_form .form .form_container .dob .dob_box,
+    .signup_section .signup_form .form .form_container .password .password_box,
+    .signup_section .signup_form .form .form_container .re_password .re_password_box {
+        width: 300px;
+    }
 }
+
+
