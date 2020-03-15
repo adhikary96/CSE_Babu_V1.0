@@ -25,6 +25,9 @@ body {
 }
 .nav_container .nav_logo {
     order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav_container .nav_menu {
     order: 2;
@@ -86,10 +89,14 @@ body {
 /** Navigation Links Styling **/
 .nav_container .nav_menu {
     float: right;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
 }
 .nav_container .nav_menu .nav_item {
     padding: 20px 15px;
+    order: 1;
     font-size: 16px;
     text-decoration: none;
     color: rgba(33, 140, 116,1);
@@ -104,7 +111,10 @@ body {
 }
 /** Login and Signup Button Styling **/
 .nav_container .nav_menu .buttons {
-    float: right;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav_container .nav_menu .buttons .btn {
     margin: 0 10px;
@@ -135,7 +145,13 @@ body {
     transition: .5s;
     transform: rotate(-1deg);
 }
-
+.nav_container .nav_menu .user_profile {
+    order: 3;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (max-width: 850px) {
     .nav_container {
@@ -190,6 +206,10 @@ body {
         margin: 10px 15px;
         width: 50%;
     }
+}
+
+.none {
+    display: none !important;
 }
 
 
